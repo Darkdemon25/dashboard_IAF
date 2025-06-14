@@ -9,23 +9,33 @@
         padding: 0;
         width: 100%;
         height: 100%;
-        overflow: hidden;
+        font-family: sans-serif;
+        display: flex;
+        flex-direction: column;
     }
     iframe {
-        width: 100vw;
-        height: 100vh;
+        flex: 1;
         border: none;
     }
-</style>
+    .github-link {
+        text-align: center;
+        padding: 10px;
+        background-color: #f4f4f4;
+    }
+    .github-link a {
+        color: #0366d6;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    </style>
 </head>
 <body>
     <iframe 
         title="Dashboard-Factores de Impacto IAF V_2_1" 
-        width="1140" 
-        height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=c8dc8e1e-3d2c-4f50-8f4a-1ce11c9f7071&autoAuth=true&ctid=f94bf4d9-8097-4794-adf6-a5466ca28563&navContentPaneEnabled=false" 
-        frameborder="0" 
+        src="https://app.powerbi.com/reportEmbed?reportId=c8dc8e1e-3d2c-4f50-8f4a-1ce11c9f7071&autoAuth=true&ctid=f94bf4d9-8097-4794-adf6-a5466ca28563&navContentPaneEnabled=false" 
         allowFullScreen="true">
     </iframe>
+
     <div class="github-link">
         Proyecto disponible en GitHub: 
         <a href="https://github.com/Darkdemon25/IAF-Factores-Impacto-ArbolesDecision" target="_blank">
